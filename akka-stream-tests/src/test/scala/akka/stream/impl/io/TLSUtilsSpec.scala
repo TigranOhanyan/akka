@@ -1,7 +1,6 @@
-package akka.stream.io
+package akka.stream.impl.io
 
 import akka.stream.TLSClientAuth
-import akka.stream.impl.io.TlsUtils
 import akka.stream.TLSProtocol.NegotiateNewSession
 import javax.net.ssl.{SSLContext, SSLEngine, SSLParameters}
 import org.scalatest.flatspec.AnyFlatSpec
